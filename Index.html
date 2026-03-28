@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transporte RD</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+  <h1>Transporte RD</h1>
+</header>
+
+<nav>
+  <form id="formBusqueda">
+    <select id="origen"></select>
+    <select id="destino"></select>
+
+    <select id="ordenar">
+      <option value="tiempo">Tiempo</option>
+      <option value="costo">Costo</option>
+      <option value="transbordos">Transbordos</option>
+    </select>
+
+    <button id="buscar" type="submit">Buscar</button>
+  </form>
+
+  <button onclick="toggleAhorro()">Modo ahorro</button>
+
+  <select onchange="cambiarIdioma(this.value)">
+    <option value="es">ES</option>
+    <option value="en">EN</option>
+  </select>
+</nav>
+
+<main>
+
+<section>
+  <h2>Rutas</h2>
+  <div id="resultados"></div>
+</section>
+
+<section>
+  <h2>Favoritas</h2>
+  <div id="favoritas"></div>
+</section>
+
+<section>
+  <h2>Alertas</h2>
+  <div id="alertas"></div>
+</section>
+
+<section>
+  <h2>Mapa</h2>
+  <svg id="mapa" width="300" height="200"></svg>
+</section>
+
+<section>
+  <h2>Reglas</h2>
+  <ul>
+    <li>Tiempo base = suma tramos</li>
+    <li>Condiciones aplican porcentaje</li>
+    <li>Costo suma extras</li>
+  </ul>
+</section>
+
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

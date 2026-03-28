@@ -1,0 +1,16 @@
+{
+  "alertas": [
+    {
+      "tipo": "lluvia",
+      "tiempo_pct": 20,
+      "costo_extra": 10,
+      "activa": true
+    },
+    {
+      "tipo": "hora_pico",
+      "tiempo_pct": 30,
+      "costo_extra": 0,
+      "activa": false
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "rutas": [
+    {
+      "origen": "Los Mina",
+      "destino": "Naco",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 50 },
+        { "tiempo_min": 15, "costo": 25 }
+      ],
+      "transbordos": 1
+    },
+    {
+      "origen": "Los Mina",
+      "destino": "Naco",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Los Mina",
+      "destino": "Naco",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 45, "costo": 35 }
+      ],
+      "transbordos": 5
+    },
+    
+
+    {
+      "origen": "Los Mina",
+      "destino": "Gazcue",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 50, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Los Mina",
+      "destino": "Gazcue",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 35, "costo": 225 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Los Mina",
+      "destino": "Gazcue",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 68, "costo": 50 }
+      ],
+      "transbordos": 0
+    },
+
+
+    {
+      "origen": "Naco",
+      "destino": "Los Mina",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Naco",
+      "destino": "Los Mina",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 15, "costo": 25 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Naco",
+      "destino": "Los Mina",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 45, "costo": 35 }
+      ],
+      "transbordos": 0
+    },
+
+
+    {
+      "origen": "Naco",
+      "destino": "Gazcue",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Naco",
+      "destino": "Gazcue",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Naco",
+      "destino": "Gazcue",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 20, "costo": 150 }
+      ],
+      "transbordos": 0
+    },
+
+    {
+      "origen": "Gazcue",
+      "destino": "Naco",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 18, "costo": 50 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Gazcue",
+      "destino": "Naco",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 10, "costo": 100 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Gazcue",
+      "destino": "Naco",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 30, "costo": 25 }
+      ],
+      "transbordos": 0
+    },
+
+
+    {
+      "origen": "Gazcue",
+      "destino": "Los Mina",
+      "transporte": "motoconcho",
+      "tramos": [
+        { "tiempo_min": 15, "costo": 125 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Gazcue",
+      "destino": "Los Mina",
+      "transporte": "concho",
+      "tramos": [
+        { "tiempo_min": 30, "costo": 65 }
+      ],
+      "transbordos": 0
+    },
+    {
+      "origen": "Gazcue",
+      "destino": "Los Mina",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 60, "costo": 35 }
+      ],
+      "transbordos": 0
+    },
+
+    {
+      "origen": "Villa Mella",
+      "destino": "Gazcue",
+      "transporte": "guagua",
+      "tramos": [
+        { "tiempo_min": 50, "costo": 50 }
+      ],
+      "transbordos": 0
+    }
+  ]
+}
